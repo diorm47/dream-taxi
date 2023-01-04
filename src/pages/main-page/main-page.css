@@ -175,3 +175,84 @@ section {
   transition: all 0.5s ease;
   background: #025b40fd;
 }
+
+@media only screen and (max-width: 1320px) {
+  .header_wrapper,
+  .passengers_cards,
+  .search_taxist,
+  .drivers_cards,
+  .main_signin {
+    width: 100%;
+    padding: 0 20px;
+  }
+}
+
+@media only screen and (max-width: 1030px) {
+  .passengers_cards div p,
+  .drivers_cards div p {
+    font-size: 13px;
+  }
+  .passengers_cards div,
+  .drivers_cards div {
+    padding: 8px;
+  }
+}
+
+@media only screen and (max-width: 850px) {
+  .header_wrapper,
+  .search_section_blocks,
+  .main_signin_blockers {
+    flex-direction: column;
+  }
+  .header_wrapper .left_part,
+  .header_wrapper .right_part {
+    width: 100%;
+  }
+  .search_section_blocks .search_left,
+  .search_section_blocks .search_right {
+    width: 100%;
+  }
+  .main_signin_blockers .main_sign_left,
+  .main_signin_blockers .main_sign_right {
+    width: 100%;
+  }
+  .search_section_blocks .search_left {
+    margin-bottom: 30px;
+  }
+}
+
+@media only screen and (max-width: 630px) {
+  .passengers_cards,
+  .drivers_cards {
+    flex-direction: column;
+  }
+  .passengers_cards div,
+  .drivers_cards div {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .header_wrapper .right_part_text p,
+  .search_right_text p,
+  .main_sign_text p {
+    font-size: 10px;
+  }
+  .green_line {
+    margin: 20px 0;
+  }
+  .passengers_cards,
+  .drivers_cards {
+    margin: 0 auto;
+  }
+  .search_section_title h1,
+  .main_signin_title h1 {
+    font-size: 22px;
+    margin-top: 20px;
+  }
+  .start_btn_main button {
+    height: 30px;
+    font-size: 14px;
+    margin-bottom: 50px;
+  }
+}
