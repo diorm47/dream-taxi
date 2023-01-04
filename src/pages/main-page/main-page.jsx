@@ -32,9 +32,9 @@ function MainPage() {
           <div className="right_part">
             <div className="right_part_text">
               <p>
-                Dream Taxi orqali shaharlararo qatnovni tez va oson amalga
-                oshiring. Siz yo'lovchi bo'lsangiz, shunchaki o'zingizga mos
-                yo'nalish va taksilarni toping. Agarda haydovchi bo'lsangiz,
+                Viloyatingiz bo'ylab istalgan manzilga qatnovni tez va oson
+                amalga oshiring. Siz yo'lovchi bo'lsangiz, shunchaki o'zingizga
+                mos yo'nalish va taksilarni toping. Agarda haydovchi bo'lsangiz,
                 bizda ro'yxatdan o'ting va onlayn mijozlarga ega bo'ling.
               </p>
             </div>
@@ -58,7 +58,9 @@ function MainPage() {
             <PassengerCard1 />
           </div>
           <div className="passenger_card2">
-            <p>Shaharlararo manzilingizga biz bilan yetib olishnichi?</p>{" "}
+            <p>
+              Viloyatingiz bo'ylab manzilingizga biz bilan yetib olishnichi?
+            </p>{" "}
             <PassengerCard2 />
           </div>
           <div className="passenger_card3">
@@ -154,9 +156,9 @@ function MainPage() {
               >
                 <div className="main_sign_text">
                   <p>
-                    Agar siz uzoq masofaga, masalan poytaxtga va poytaxtdan uyga
-                    qatnovchi taksist bo'lsangiz bu dastur siz uchun ayni
-                    muddao. Siz biz bilan o'z yo'nalishingiz va unga doir
+                    Agar siz viloyatingiz bo'ylab bir manzildan ikkinchi
+                    manzilga qatnovchi taksist bo'lsangiz bu dastur siz uchun
+                    ayni muddao. Siz biz bilan o'z yo'nalishingiz va unga doir
                     ma'lumotlarni, yo'lovchilarga oson yetkazasiz. O'z
                     mijozlaringizni esa oson topasiz, xattoki oldindan e'lon
                     berasiz. Agar siz endi qiynalmasdan mijoz topishni

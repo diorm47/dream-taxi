@@ -7,6 +7,7 @@ nav {
 .nav_logo a p {
   color: #fff;
   font-size: 25px;
+  text-transform: uppercase;
 }
 
 .naw_wrapper {

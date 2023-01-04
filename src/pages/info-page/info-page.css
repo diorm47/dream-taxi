@@ -56,6 +56,7 @@
 .footer_logo p {
   color: #000;
   font-size: 20px;
+  text-transform: uppercase;
 }
 
 @media only screen and (max-width: 1310px) {
@@ -83,17 +84,18 @@
   }
   .footer_links p {
     margin-right: 20px;
-    font-size: 11px;
+    font-size: 13px;
   }
   .footer_links_list svg {
-    width: 20px;
+    width: 35px;
+    margin-right: 10px;
   }
   .black_line {
     margin: 0;
     height: 0.5px;
   }
   .footer_logo p {
-    font-size: 12px;
+    font-size: 16px;
     padding: 10px 0;
   }
   .footer_bottom p {

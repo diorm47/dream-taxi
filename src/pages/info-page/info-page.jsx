@@ -88,7 +88,7 @@ function InfoPage() {
           <div className="footer_bottom">
             <div className="footer_logo">
               <NavLink to="/">
-                <p>Dream Taxi</p>
+                <p>Yo'l-yo'lakay</p>
               </NavLink>
             </div>
             <p>© 2022</p>
