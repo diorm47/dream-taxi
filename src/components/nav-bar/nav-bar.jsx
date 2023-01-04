@@ -28,7 +28,7 @@ function NavBar() {
             data-aos-duration="1000"
           >
             <NavLink to="/">
-              <p>Dream Taxi</p>
+              <p>Yo'l-yo'lakay</p>
             </NavLink>
           </div>
           <div
