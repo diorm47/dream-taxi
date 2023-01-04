@@ -17,6 +17,9 @@ function AuthPage() {
   } = useForm();
 
   const onSubmit = (data) => {
+    if (data.create_password !== data.confirm_password) {
+      alert("Parol notog'ri! Qaytadan kiriting.");
+    }
     console.log(data);
   };
   return (

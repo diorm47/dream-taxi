@@ -26,6 +26,18 @@
   font-size: 20px;
 }
 
+@media only screen and (max-width: 1330px) {
+  .drivers_page_wrapper {
+    width: 100%;
+    padding: 0 15px;
+  }
+}
 
 @media only screen and (max-width: 500px) {
+  .empty_message_block svg {
+    width: 200px;
+  }
+  .empty_message_block p {
+    font-size: 12px;
+  }
 }

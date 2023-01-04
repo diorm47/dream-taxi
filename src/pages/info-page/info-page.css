@@ -57,3 +57,50 @@
   color: #000;
   font-size: 20px;
 }
+
+@media only screen and (max-width: 1310px) {
+  .info_wrapper {
+    width: 100%;
+    padding: 0 10px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .info_page_title h1 {
+    font-size: 20px;
+  }
+  .project_img {
+    width: 100%;
+    padding: 0 20px;
+  }
+
+  .project_texts h3 {
+    font-size: 16px;
+  }
+  .project_texts p {
+    font-size: 12px;
+    margin-bottom: 30px;
+  }
+  .footer_links p {
+    margin-right: 20px;
+    font-size: 11px;
+  }
+  .footer_links_list svg {
+    width: 20px;
+  }
+  .black_line {
+    margin: 0;
+    height: 0.5px;
+  }
+  .footer_logo p {
+    font-size: 12px;
+    padding: 10px 0;
+  }
+  .footer_bottom p {
+    font-size: 12px;
+    padding: 10px 0;
+  }
+  .project_texts {
+    padding-bottom: 0;
+  }
+}

@@ -108,7 +108,7 @@
 .create_acc_form span {
   color: red;
   font-size: 12px;
- font-weight: normal;
+  font-weight: normal;
 }
 
 .submit_button {
@@ -158,4 +158,35 @@
 
 .password_recovery {
   margin-top: 30px;
+}
+
+@media only screen and (max-width: 420px) {
+  .profile_wrapper {
+    padding-top: 30px;
+  }
+  .sign_in,
+  .create_acc {
+    margin-bottom: 20px;
+    padding: 0 15px;
+  }
+  .sign_in h2,
+  .create_acc h2 {
+    font-size: 20px;
+    margin-bottom: 50px;
+  }
+  .email_sign input,
+  .password_sign input,
+  .create_acc_form input {
+    width: 100%;
+  }
+  .email_sign p,
+  .password_sign p,
+  .create_acc_form p,
+  .password_recovery a {
+    font-size: 11px;
+  }
+  .signin_button input,
+  .submit_button {
+    font-size: 15px !important;
+  }
 }
