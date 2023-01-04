@@ -1,0 +1,161 @@
+.profile_wrapper {
+  padding-top: 70px;
+}
+
+.sign_in {
+  margin-bottom: 50px;
+}
+
+.sign_in h2 {
+  font-weight: normal;
+  font-size: 25px;
+
+  letter-spacing: 0.2px;
+  margin-bottom: 100px;
+  text-align: center;
+}
+
+.email_sign p,
+.password_sign p,
+.create_acc_form p {
+  font-weight: 400;
+  font-size: 14px;
+  margin-bottom: 3px;
+  color: #4b4c4bfd;
+}
+
+.email_sign input,
+.password_sign input,
+.create_acc_form input {
+  width: 410px;
+  height: 40px;
+  outline: #098560fd;
+  border-radius: 4px;
+  border: 1px solid #098560fd;
+  text-indent: 7px;
+  font-size: 17px;
+  color: #4b4c4bfd;
+}
+
+.email_sign input {
+  margin-bottom: 32px;
+}
+
+.password_sign input {
+  margin-bottom: 17px;
+}
+
+.remember_me {
+  display: flex;
+  align-items: center;
+  margin-bottom: 35px;
+}
+
+.signin_button input {
+  width: 100%;
+  height: 47px;
+  background: #098560fd;
+  border-radius: 6px;
+  cursor: pointer;
+  border: none;
+  color: #fff;
+
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 2px;
+  margin-bottom: 30px;
+  transition: all 0.5s ease;
+}
+.signin_button input:hover {
+  transition: all 0.5s ease;
+  background: #055f44fd;
+}
+
+.password_recovery p,
+.password_recovery a {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 0.2px;
+  color: #000000;
+
+  text-align: center;
+}
+.password_recovery a {
+  transition: all 0.5s ease;
+  font-weight: 600;
+}
+.password_recovery a:hover {
+  color: rgb(92, 91, 91);
+}
+
+.sign_in span {
+  color: red;
+  font-size: 12px;
+}
+
+/* create account */
+
+.create_acc_form p {
+  margin-top: 10px;
+}
+.create_acc h2 {
+  text-align: center;
+  font-weight: normal;
+}
+
+.create_acc_form span {
+  color: red;
+  font-size: 12px;
+ font-weight: normal;
+}
+
+.submit_button {
+  width: 100%;
+  height: 47px;
+  background: #098560fd;
+  border-radius: 6px;
+  cursor: pointer;
+
+  color: #fff !important;
+  border: none !important;
+  outline: none;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 2px;
+  margin-top: 30px;
+  transition: all 0.5s ease;
+}
+
+.submit_button:hover {
+  transition: all 0.5s ease;
+  background: #055f44fd;
+}
+
+.create_acc,
+.sign_in {
+  padding-bottom: 50px;
+}
+
+.autorizing_page {
+  max-width: 410px;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.signin_form input {
+  margin-bottom: 0;
+}
+
+.sign_in p {
+  margin-top: 20px;
+}
+.sign_in span {
+  color: red;
+}
+
+.password_recovery {
+  margin-top: 30px;
+}

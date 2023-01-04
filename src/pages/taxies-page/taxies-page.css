@@ -1,0 +1,27 @@
+.drivers_page_wrapper {
+  width: 1300px;
+  margin: 0 auto;
+}
+
+.empty_message {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.empty_message_block {
+  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.empty_message_block svg {
+  width: 400px;
+  margin-bottom: 20px;
+}
+.empty_message_block p {
+  font-size: 20px;
+}

@@ -1,0 +1,70 @@
+nav {
+  width: 100%;
+  padding: 0 20px;
+  background: #098560fd;
+}
+.nav_logo a p {
+  color: #fff;
+  font-size: 25px;
+}
+
+.naw_wrapper {
+  width: 1300px;
+  margin: 0 auto;
+  height: 60px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.naw_wrapper .nav_list .active {
+  height: 100%;
+  background: rgba(5, 101, 72, 0.992);
+}
+.nav_list_item p {
+  color: #fff;
+}
+.naw_wrapper .nav_list_item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.naw_wrapper .nav_list_item svg {
+  width: 35px;
+  margin-right: 5px;
+}
+.nav_list {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav_list .nav_list_item {
+  height: 100% !important;
+  margin: 0 40px;
+  padding: 0 10px;
+  transition: all 0.5s ease;
+}
+.nav_list a {
+  margin: 0 10px;
+}
+.nav_list a:hover {
+  transition: all 0.5s ease;
+  background: rgba(5, 101, 72, 0.992);
+  height: 100%;
+}
+.nav_auth {
+  height: 100%;
+}
+.nav_auth .nav_list_item {
+  padding: 0 10px;
+  height: 100%;
+  background: rgb(25, 80, 148);
+  transition: all 0.5s ease;
+}
+.nav_auth .nav_list_item:hover {
+  transition: all 0.5s ease;
+  background: rgb(5, 58, 122);
+}
