@@ -41,11 +41,11 @@ function InfoPage() {
           <h3>Kimlar ushbu dasturdan foydalanadilar?</h3>
           <div className="info_green_line"></div>
           <p>
-            - Ushbu loyiha shaharlararo yoki uzoq masofaga qatnovni amalga
-            oshiruvchi haydovchilar va yo'lovchilar uchun online platformadir.
-            Bu dastur yo'lovchilar va haydovchilarga birdek foydali bo'lishi
-            mumkin. Sababi, bizning dastur ayni vaqtdagi xaydovchilar haqidagi
-            ma'lumotni soniyalar ichida yetkazadi.
+            - Ushbu loyiha viloyatingizni istalgan yónalishi bóyicha qatnovni
+            amalga oshiruvchi haydovchilar va yo'lovchilar uchun online
+            platformadir. Bu dastur yo'lovchilar va haydovchilarga birdek
+            foydali bo'lishi mumkin. Sababi, bizning dastur ayni vaqtdagi
+            xaydovchilar haqidagi ma'lumotni soniyalar ichida yetkazadi.
           </p>
           <h3>Yo'lovchilar uchun yo'riqnoma</h3>
           <div className="info_green_line"></div>

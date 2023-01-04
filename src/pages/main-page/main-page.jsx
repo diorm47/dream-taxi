@@ -122,7 +122,7 @@ function MainPage() {
             <DriverCard1 />
           </div>
           <div className="drivers_card2">
-            <p>Shaharlararo manzilingizga biz bilan yetib olishnichi?</p>{" "}
+            <p>Viloyatingiz bóylab manzilingizga biz bilan yetib olishnichi?</p>
             <DriverCard2 />
           </div>
           <div className="drivers_card3">
