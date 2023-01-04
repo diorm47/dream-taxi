@@ -71,7 +71,7 @@ function NavBar() {
             onClick={() => setMenu(true)}
             className={menu ? "nav_burger_close" : "hide_close_menu"}
           >
-            <MenuIcon />
+            <MenuIcon data-aos="fade-down" data-aos-duration="1000" />
           </div>
         </div>
       </nav>

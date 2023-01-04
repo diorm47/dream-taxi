@@ -75,11 +75,7 @@ function InfoPage() {
         </div>
 
         <footer>
-          <div
-            className="footer_links"
-            data-aos="fade-left"
-            data-aos-duration="1000"
-          >
+          <div className="footer_links">
             <p>Bizni kuzatib boring</p>
             <div className="footer_links_list">
               <Telegram />

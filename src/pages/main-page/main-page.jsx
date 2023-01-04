@@ -23,7 +23,7 @@ function MainPage() {
       <header>
         <div
           className="header_wrapper"
-          data-aos="fade-left"
+          data-aos="fade-up"
           data-aos-duration="1000"
         >
           <div className="left_part">
@@ -79,7 +79,7 @@ function MainPage() {
           <div className="search_section_blocks">
             <div
               className="search_left"
-              data-aos="fade-right"
+              data-aos="fade-up"
               data-aos-duration="1000"
             >
               <SearchDrivers />
@@ -87,7 +87,7 @@ function MainPage() {
             <div className="search_right">
               <div
                 className="search_right_text"
-                data-aos="fade-left"
+                data-aos="fade-up"
                 data-aos-duration="1000"
               >
                 <p>
@@ -141,7 +141,7 @@ function MainPage() {
           <div className="main_signin_blockers">
             <div
               className="main_sign_left"
-              data-aos="fade-right"
+              data-aos="fade-up"
               data-aos-duration="1000"
             >
               <DocumentIcon />
@@ -149,7 +149,7 @@ function MainPage() {
             <div className="main_sign_right">
               <div
                 className="main_sign_right_items"
-                data-aos="fade-left"
+                data-aos="fade-up"
                 data-aos-duration="1000"
               >
                 <div className="main_sign_text">

@@ -236,7 +236,7 @@ section {
   .header_wrapper .right_part_text p,
   .search_right_text p,
   .main_sign_text p {
-    font-size: 10px;
+    font-size: 14px;
   }
   .green_line {
     margin: 20px 0;
@@ -247,12 +247,12 @@ section {
   }
   .search_section_title h1,
   .main_signin_title h1 {
-    font-size: 22px;
+    font-size: 23px;
     margin-top: 20px;
   }
   .start_btn_main button {
     height: 30px;
-    font-size: 14px;
+    font-size: 15px;
     margin-bottom: 50px;
   }
 }
