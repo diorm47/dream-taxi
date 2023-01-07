@@ -18,6 +18,7 @@ function NavBar() {
     AOS.init();
     AOS.refresh();
   }, []);
+
   return (
     <>
       <nav>
