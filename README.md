@@ -1,6 +1,6 @@
 # dream-taxi
 Dream Taxi, startup site of IT center of my institute
 
-# demo
+# DEMO
 
-https://dream-taxi.vercel.app/
+https://yol-yolakay.vercel.app
